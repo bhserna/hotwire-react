@@ -1,24 +1,30 @@
-# README
+# Use React with Hotwire
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+It is a demo that shows how you can plug a react app inside a rails app using Stimulus.js.
 
-Things you may want to cover:
+If you start the app, and go to the "page with react" you will see a page with the counters implemented using react and started using a Stimulus controller.
 
-* Ruby version
+By starting the react app with Stimulus.js you can then move back to the index, that don’t have any react component, and the go back to the page with react using turbo, and Stimulus.js will initialize the app as expected.
 
-* System dependencies
+Like in this video…
 
-* Configuration
+[Hotwire with react demo](https://www.loom.com/share/02454214bbbe45ef96cf7a821c64b606?t=0)
 
-* Database creation
+## Blog post
 
-* Database initialization
+I wrote a blog post, explaining how you can integrate react with hotwire, using this repo as example.
 
-* How to run the test suite
+You can find it on [bhserna.com/use-react-with-hotwire.html](https://bhserna.com/use-react-with-hotwire.html)
 
-* Services (job queues, cache servers, search engines, etc.)
+## Versions
 
-* Deployment instructions
+### Ruby
+* Ruby: 3.0.0
+* Rails: 7.0.2.2
+* Turbo rails: 1.0.0
+* Stimulus rails: 1.0.2
 
-* ...
+### Javascript
+* React: 17.0.2
+* React Dom: 17.0.2
+
